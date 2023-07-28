@@ -137,7 +137,7 @@ int main(void)
 {
     struct RecordType *pRecords;
     int recordSz = 0;
-    int hashSz = 10; // The size of the hash table (you can change this according to your requirements)
+    int hashSz = 15; // The size of the hash table (you can change this according to your requirements)
 
     recordSz = parseData("input.txt", &pRecords);
     printRecords(pRecords, recordSz);
